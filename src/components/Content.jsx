@@ -1,10 +1,9 @@
-// Content.jsx
+
 import { useState } from 'react';
 
 const Content = ({ onPlaySong }) => {
   const [activeCategory, setActiveCategory] = useState('all');
 
-  // 30 Tamil Songs with real cover arts
   const tamilSongs = [
     {
       id: 1, title: "Why This Kolaveri Di", artist: "Anirudh Ravichander", 
@@ -189,7 +188,6 @@ const Content = ({ onPlaySong }) => {
     }
   ];
 
-  // 30 English Songs with real cover arts
   const englishSongs = [
     {
       id: 31, title: "Blinding Lights", artist: "The Weeknd", 
